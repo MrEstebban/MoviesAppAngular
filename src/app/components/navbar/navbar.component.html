@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm">
+    <a class="navbar-brand" routerLink="['/home']">PeliculasApp</a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+      </ul>
+      
+        <div class="form-inline my-2 my-lg-0">
+          <input #inputBuscar 
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Buscar Pelicula"
+                aria-label="Search"
+                (keyup.enter)="buscarPelicula(inputBuscar.value)">
+          <button class="btn btn-outline-success my-2 my-sm-0"
+                  type="button"
+                  (click)="buscarPelicula(inputBuscar.value)">Buscar</button>
+        </div>
+      
+
+    </div>
+  </nav>

@@ -1,0 +1,12 @@
+En esta sección trabajaremos con una API muy popular 
+llamada TheMovieDB API, para hacer una aplicación de 
+búsqueda de películas, puntualmente tocaremos temas como:
+
+- Http Get
+- Operadores de RXJS como el Tap y Map
+- Combinar observables
+- Módulos
+- Estructura de un proyecto real
+- Servicios
+- Slideshow
+- Swiper
